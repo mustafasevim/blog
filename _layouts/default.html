@@ -5,6 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script>
+    var host = "mustafasevim.net";
+    if ((host == window.location.host) && (window.location.protocol != 'https:')) {
+        window.location = window.location.toString().replace(/^http:/, "https:");
+    }
+    </script>
 
     {% if page.title %}
         <title>{{ page.title }}</title>
