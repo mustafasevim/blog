@@ -1,5 +1,4 @@
 ### Blog
-[mustafasevim.net](mustafasevim.net)
 My blog made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
 
 ### License
