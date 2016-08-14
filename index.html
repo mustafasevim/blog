@@ -1,16 +1,25 @@
 ---
 layout: default
 ---
-
 {% include header.html %}
-
 <div class="blog">
-    <h1>Blog Posts:</h1>
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+   <div id="home-header">
+      <h1>&middot; Hi, my name is
+         <a href="https://resume.mustafasevim.net">Mustafa Sevim</a> &middot;
+      </h1>
+      <p>
+         I'm a Computer Engineer
+      </p>
+   </div>
+</div>
+<div class="blog">
+   <h1>Blog Posts:</h1>
+   <ul>
+      {% for post in site.posts %}
+      <li>
+         <span class="date">{{ post.date | date: '%Y %b %d' }}</span> -
+         <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+   </ul>
 </div>
