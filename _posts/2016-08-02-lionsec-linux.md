@@ -5,7 +5,7 @@ title: LionSec Linux
 
 LionSec Linux, Kali Linux dan sıkılan ve yeni bir arayış içerisine girenlerin kullanabileceği Ubuntu tabanlı bir işletim sistemidir.
 
-<div class="videoWrapper"> <iframe width="420" height="315" src="http://www.youtube.com/embed/QpQQj_Mobyg" frameborder="0" allowfullscreen></iframe> </div>
+<div class="videoWrapper"> <iframe width="420" height="315" src="https://www.youtube.com/embed/QpQQj_Mobyg" frameborder="0" allowfullscreen></iframe> </div>
 
 ------
 Minimum Sistem Gereksinimleri:
