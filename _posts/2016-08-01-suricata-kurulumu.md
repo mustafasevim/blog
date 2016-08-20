@@ -22,9 +22,7 @@ Uygulamanın yüklenmesi varsayılan ayarlar ile tam yükleme yapıldığından 
 
 Uygulama, var olan kuralların düzenlenmesini veya sonradan kural eklenmesi mümkün kılan esnek bir kural tanımlama diline sahiptir. Her bir kural, başlık ve kural seçenekten oluşur.
 
-<p align="center">
-	<img src="https://redmine.openinfosecfoundation.org/attachments/download/440/intro_sig.png" />
-</p>
+<p><img src="https://redmine.openinfosecfoundation.org/attachments/download/440/intro_sig.png" /></p>
 
 **Eylem:** Dört farklı eylem tipi vardır.
 
