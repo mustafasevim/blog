@@ -75,4 +75,4 @@ Bulunduğumuz dizinde yer alan Dockerfile isimli dosyadan host üzerine imaj ür
 * `COPY` ile ADD instructionı ile aynı şekilde kullanılır fakat bu instruction ile internetten dosya indirilemez sadece host üzerindeki dosya ve klasörleri kopyalamak için kullanılır.
 * `WORKDIR` ile çalışma dizinini belirtilir.
 
-Diğer kullanımlar ve ayrıntılı bilgiyi [buradan]( https://docs.docker.com/engine/reference/builder/) öğrenebilirsiniz.
+Diğer kullanımları ve ayrıntılı bilgiyi [buradan]( https://docs.docker.com/engine/reference/builder/) öğrenebilirsiniz.
