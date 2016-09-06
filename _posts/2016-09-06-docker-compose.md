@@ -6,16 +6,16 @@ title: Docker-Compose
 Docker-Compose, herhangi bir uygulama için birden fazla konteyner çalıştırılmak istendiğinde bu konteynerlerin yapılandırılması ve yönetimi için kullanılır. `docker-compose.yml` dosyasında detayları verilen ve birbirleri ile ilişkileri tanımlanan konteynerler tek bir komut ile çalıştırılabilir, birbirleri ile iletişime geçmesi sağlanabilir veya durdurulabilir. 
 
 # Docker-Compose Kurulumu
-
+<hr />
 Docker Engine, sistemde kurulu ise aşağıdaki komutlar ile Docker-Compose kurulumu yapılabilir.
 
 	$ curl -L https://github.com/docker/compose/releases/download/1.8.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
-```bash
-$ chmod +x /usr/local/bin/docker-compose
-```
+
+	$ chmod +x /usr/local/bin/docker-compose
+
 
 # Docker-Compose Dosyasının Yapısı ve Konfigürasyon Opsiyonlarını
-
+<hr />
 * `image:` Üretilecek konteyner imajının adını belirtmektedir. 
 * `build:` Eğer imaj bir Dockerfile'dan üretilecekse bu dosyanın bulunduğu dosya yolunu belirmektedir 
 * `command:` Konteyner başlatılığında çalışacak komut ya da komutlar dizisini belirtmektedir 
@@ -47,7 +47,7 @@ Konteyner için gerekli olan imaj hazırlama ve yazılımların birlikte çalı�
 
 
 # Temel Docker-Compose Komutları
-
+<hr />
 `docker-compose.yml` dosyası oluşturulduktan sonra dosyanın yer aldığı dizinde aşağıdaki komutlar ile konteynerler yönetilebilir.
 
     $ docker-compose version
