@@ -1,11 +1,11 @@
 - title: home
-  url: /
-
-- title: about
-  url: /me
+  url: https://mustafasevim.net
 
 - title: github
   url: https://github.com/mustafasevim
+
+- title: gitlab
+  url: https://gitlab.com/u/mustafasevim
 
 - title: contact
   url: mailto:info@mustafasevim.net
