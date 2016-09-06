@@ -29,19 +29,7 @@ Diğer kullanımları ve ayrıntılı bilgiyi [buradan](https://docs.docker.com/
 
 **Örnek `docker-compose.yml`** 
 
-	db:
-		image: mysql:latest
-		environment:
-			- MYSQL_ROOT_PASSWORD=12345
-	redis:
-		image: redis:latest
-	web:
-		build: .
-		ports:
-			- “80:80”
-		link:
-			- db
-			- redis
+<script src="https://gist.github.com/mustafasevim/59cb9750376fa7250e76039ed06a5ac7.js"></script>
 
 Konteyner için gerekli olan imaj hazırlama ve yazılımların birlikte çalışma yapılandırması tamamlandıktan sonra uygulama çalıştırılması için `docker-compose up` komutunun verilmesiyle, `docker-compose.yml`deki sıralamaya bağlı olarak öncelikle MySQL servisinin çalıştığı db isimli bir konteyner oluşturulur. Bunun ardından önbellek sistemi olan Redis servisinin çalıştığı redis isimli bir konteyner oluşturulur. Son olarak projenin bulunduğu dizindeki “Dockerfile” dikkate alınarak proje için bir adet imaj üretilerek bu imajdan da “web” adında bir konteyner üretilir ve çalıştırılır.
 
