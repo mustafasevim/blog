@@ -3,7 +3,7 @@ layout: post
 title: Docker Cheat Sheet  
 ---
 
-**İmaj Eylemleri**
+**İmaj İşlemleri**
 
 Sistemdeki Docker imajlarını listelemek için:
 
