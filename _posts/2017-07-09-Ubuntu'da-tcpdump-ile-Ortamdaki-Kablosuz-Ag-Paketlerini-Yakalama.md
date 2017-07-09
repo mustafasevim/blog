@@ -2,8 +2,7 @@
 layout: post
 title: Ubuntu'da tcpdump ile Ortamdaki Kablosuz Ağ Paketlerini Yakalama
 ---
-
-# Ubuntu'da tcpdump ile Ortamdaki Kablosuz Ağ Paketlerini Yakalama 
+ 
 
 ## Kablosuz Ağ Arabirim Çalışma Modları
 
