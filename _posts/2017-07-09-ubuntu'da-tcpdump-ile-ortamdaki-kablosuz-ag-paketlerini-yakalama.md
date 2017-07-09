@@ -4,8 +4,8 @@ title: Ubuntu'da tcpdump ile Ortamdaki Kablosuz Ağ Paketlerini Yakalama
 ---
  
 
-## Kablosuz Ağ Arabirim Çalışma Modları
-
+# Kablosuz Ağ Arabirim Çalışma Modları
+<hr />
 Kablosuz ağ adaptörleri kullandıkları sürücüye ve yapacağı işleve bağlı olarak  dört farklı modda çalışabilir.
 
  - `Managed Mod:` Bir erişim noktasına bağlanarak hizmet alan istemcinin bulunduğu mod.
@@ -16,8 +16,8 @@ Kablosuz ağ adaptörleri kullandıkları sürücüye ve yapacağı işleve bağ
 
  - `Ad-Hoc Mod:` Arada bir AP olmaksızın kablosuz istemcilerin haberleşmesi için kullanılan mod.
 
-## Ortamdaki Kablosuz Ağ Paketlerini Yakalama
-
+# Ortamdaki Kablosuz Ağ Paketlerini Yakalama
+<hr />
 Öncelikle kullanılacak interface aşağıdaki komutlarla monitor moduna alınmalıdır.
 
 	$ sudo ifconfig wlan0 down
