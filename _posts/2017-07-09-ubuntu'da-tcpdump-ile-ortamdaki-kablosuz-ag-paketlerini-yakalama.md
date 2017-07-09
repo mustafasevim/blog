@@ -16,15 +16,15 @@ Kablosuz ağ adaptörleri kullandıkları sürücüye ve yapacağı işleve bağ
 
  - `Ad-Hoc Mod:` Arada bir AP olmaksızın kablosuz istemcilerin haberleşmesi için kullanılan mod.
 
- ## Ortamdaki Kablosuz Ağ Paketlerini Yakalama
+## Ortamdaki Kablosuz Ağ Paketlerini Yakalama
 
  Öncelikle kullanılacak interface aşağıdaki komutlarla monitor moduna alınmalıdır.
 
- 	$ sudo ifconfig wlan0 down
+	$ sudo ifconfig wlan0 down
 
- 	$ sudo iwconfig wlan0 mode monitor
+	$ sudo iwconfig wlan0 mode monitor
 
- 	$ sudo ifconfig wlan0 up
+	$ sudo ifconfig wlan0 up
 
 Daha sonra dinlenecek kanal seçilmelidir.
 
