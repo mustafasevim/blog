@@ -18,7 +18,7 @@ Kablosuz ağ adaptörleri kullandıkları sürücüye ve yapacağı işleve bağ
 
 ## Ortamdaki Kablosuz Ağ Paketlerini Yakalama
 
- Öncelikle kullanılacak interface aşağıdaki komutlarla monitor moduna alınmalıdır.
+Öncelikle kullanılacak interface aşağıdaki komutlarla monitor moduna alınmalıdır.
 
 	$ sudo ifconfig wlan0 down
 
