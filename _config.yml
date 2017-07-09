@@ -25,7 +25,3 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-
-# disqus
-layout: default
-comments: true
