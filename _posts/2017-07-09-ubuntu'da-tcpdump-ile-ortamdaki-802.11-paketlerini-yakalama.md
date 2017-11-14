@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu'da tcpdump ile Ortamdaki Kablosuz Ağ Paketlerini Yakalama
+title: Ubuntu'da tcpdump ile Ortamdaki 802.11 Paketlerini Yakalama
 ---
  
 
