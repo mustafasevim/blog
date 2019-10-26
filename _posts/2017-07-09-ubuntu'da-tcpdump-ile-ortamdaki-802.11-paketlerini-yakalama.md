@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu'da tcpdump ile Ortamdaki 802.11 Paketlerini Yakalama
+title: Capturing Wireless LAN Packets in Monitor Mode 
 ---
  
 
